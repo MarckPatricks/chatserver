@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://lechat.netlify.app/",
+    origin: "https://lechat.netlify.app",
     methods: ['GET', 'POST'],
   },
 });
